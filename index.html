@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
     <title>Hackathon Landing Page</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
     <h2>Project:Sunflower Colouring Page</h2>
     </header>
     <main> 
-        <h2>Description of Application &amp; Creative Process</h2>
+        <h3>Description of Application &amp; Creative Process</h3>
         <p>When I first found out the challenge for this hackathon I was super excited.
-             I originally wanted to do a paint by numbers web page, but after looking into it
+             I originally wanted to do a paint by numbers web page, but after looking into it I
               determined it was too much for my skill set right now.</p>
         <p>Instead, I created a flower colouring page using an SVG of a sunflower. 
             I found an article on UX Collective by Alison Quaglia that used React to create what I wanted to do. 
@@ -26,19 +27,25 @@
       To make my project different from Alison's I made my "stroke-width" on all paths a "1" and changed the colour blocks
        at the bottom to be circular instead of square and with no shadow.</p>    
     <h3>Product Features</h3>
+    <p>This project uses HTML5, CSS3, Javascript and React. It is a simple click and fill design 
+        where you click a colour, then click a part of the flower you want that colour, click it and boom!
+        It's that beautiful colour you just selected!</p>
     <h3>Demo Video</h3>
-    <video width="250px" height="300px" autoplay muted>
+    <video width="500px" height="600px" autoplay muted>
         <source src="Colouring Page - Google Chrome 2021-11-23 09-10-37.mp4" type="video/mp4">
       </video>
-    <button>View Live App</button>
+    <a href="https://codesandbox.io/s/flower-colouring-image-qvq1y?file=/public/index.html" target="_blank"><button class="btn">View Live App</button></a>
     </main>
     <footer>
          <h3>Meet The Engineer</h3>
+         <img src="/img/avataaars.ico" alt="avatar"/>
          <p>Thanks for looking!</p>
          <p>Get in touch with me below</p>
-         <button>Email Me</button>
-         <img src="./img/github.png" href="https://github.com/JuliaWilliams196"/>
-         <img src="./img/linkedin.png" href="https://www.linkedin.com/in/julia-williams-a4586121a/"/>
+         <a href="mailto:julia.williams196@gmail.com">
+            <button class="btn2">Email Me</button>
+            </a>
+         <i class="fab fa-github" href="https://github.com/JuliaWilliams196" target="_blank"></i>
+         <i class="fab fa-linkedin-in" href="https://www.linkedin.com/in/julia-williams-a4586121a/" target="_blank"></i>
     </footer>
 </body>
 </html>
