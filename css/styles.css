@@ -1,37 +1,64 @@
 /*GENERAL STYLES*/
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    background-color: lightgray;
 font-size: 16px;
+margin: 0;
 }
-
 /*HEADER STYLES*/
-
-
-
-
-
-
-
+header {
+  background-color: #b37538;
+  display: block;
+  text-align: center;
+}
 /*BODY STYLES*/
-
-
-
-
-
-
-
+main {
+  background-color: lightgrey;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: "Bebas Neue", sans-serif;
+color: #042d29;
+}
+h2{
+  font-family: "Bebas Neue",sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+margin: 0;
+padding: 20px 0 30px 0;
+color: #3e0c15;
+}
+p{
+  font-family: "Shippori Antique",sans-serif;
+  font-size: 1em;
+  line-height: 2;
+  padding: 10px 20px;
+  margin: 0;
+  color: #2f3229;
+}
+h3{
+  font-family: "Bebas Neue", sans-serif;
+font-size: 1.5em;
+color: #042d29;
+margin: 0;
+padding: 20px 0 20px 0;
+}
+.first-headline{
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
 .btn {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Courier New;
+    font-family: "Shippori Antique";
+    font-weight: 200;
     color: #ffffff;
-    font-size: 28px;
-    background: #3498db;
+    font-size: 1em;
+    background: #2f3229;
     padding: 10px 20px 10px 20px;
+    margin: 20px;
     text-decoration: none;
   }
   
@@ -41,14 +68,21 @@ font-size: 16px;
   }
 
 /*FOOTER STYLES*/
+footer{
+  text-align: center;
+  background-color: #b37538;
+}
+.footer-heading{
+  font-size: 2em;
+}
 .btn2 {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Courier New;
+    font-family: "Shippori Antique";
     color: #ffffff;
-    font-size: 28px;
-    background: #3498db;
+    font-size: 1em;
+    background: #2f3229;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
