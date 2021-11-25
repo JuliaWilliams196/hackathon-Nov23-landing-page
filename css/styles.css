@@ -1,93 +1,116 @@
 /*GENERAL STYLES*/
 body {
-font-size: 16px;
-margin: 0;
-}
-/*HEADER STYLES*/
-header {
-  background-color: #b37538;
-  display: block;
-  text-align: center;
-}
-/*BODY STYLES*/
-main {
-  background-color: lightgrey;
-  text-align: center;
+  font-size: 16px;
   margin: 0;
-}
-h1 {
+  }
+  /*HEADER STYLES*/
+  header {
+    background-color: #b37538;
+    display: block;
+    text-align: center;
+  }
+  /*BODY STYLES*/
+  main {
+    background-color: lightgrey;
+    text-align: center;
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 3em;
+    font-family: "Bebas Neue", sans-serif;
+  color: #042d29;
+  }
+  h2{
+    font-family: "Bebas Neue",sans-serif;
+    font-weight: 200;
+    font-size: 2em;
   margin: 0;
-  font-size: 3em;
-  font-family: "Bebas Neue", sans-serif;
-color: #042d29;
-}
-h2{
-  font-family: "Bebas Neue",sans-serif;
-  font-weight: 200;
-  font-size: 2em;
-margin: 0;
-padding: 20px 0 30px 0;
-color: #3e0c15;
-}
-p{
-  font-family: "Shippori Antique",sans-serif;
-  font-size: 1em;
-  line-height: 2;
-  padding: 10px 20px;
-  margin: 0;
-  color: #2f3229;
-}
-h3{
-  font-family: "Bebas Neue", sans-serif;
-font-size: 1.5em;
-color: #042d29;
-margin: 0;
-padding: 20px 0 20px 0;
-}
-.first-headline{
+  padding: 20px 0 30px 0;
+  color: #3e0c15;
+  }
+  p{
+    font-family: "Shippori Antique",sans-serif;
+    font-size: 1em;
+    line-height: 2;
+    padding: 20px 30px;
+    margin: 0;
+    color: #2f3229;
+  }
+  h3{
+    font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  color: #042d29;
   margin: 0;
   padding: 20px 0 20px 0;
-}
-.btn {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: "Shippori Antique";
-    font-weight: 200;
-    color: #ffffff;
-    font-size: 1em;
-    background: #2f3229;
-    padding: 10px 20px 10px 20px;
-    margin: 20px;
-    text-decoration: none;
+  }
+  .first-headline{
+    margin: 0;
+    padding: 20px 0 20px 0;
+  }
+  .btn {
+    display:inline;
+    justify-content: center;
+    align-items: center;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: "Shippori Antique";
+      font-weight: 200;
+      color: #ffffff;
+      font-size: 1em;
+      background: #2f3229;
+      padding: 10px 20px 10px 20px;
+      margin: 50px 20px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background: #3e0c15;
+      text-decoration: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    video {
+  display: block;
+  margin: auto;
+    }
+  
+  /*FOOTER STYLES*/
+  footer{
+    text-align: center;
+    background-color: #b37538;
+  }
+  .footer-heading{
+    font-size: 2em;
+  }
+  .fa-brands {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 10px 0;    
+    margin: auto;  
+    font-size: 1em;  
+    width: 10px;  
   }
   
-  .btn:hover {
-    background: #3e0c15;
-    text-decoration: none;
-  }
-
-/*FOOTER STYLES*/
-footer{
-  text-align: center;
-  background-color: #b37538;
-}
-.footer-heading{
-  font-size: 2em;
-}
-.btn2 {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: "Shippori Antique";
-    color: #ffffff;
-    font-size: 1em;
-    background: #2f3229;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn2:hover {
-    background: #3e0c15;
-    text-decoration: none;
-  }
+  .btn2 {
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: "Shippori Antique";
+      color: #ffffff;
+      font-size: 1em;
+      background: #2f3229;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    cursor: pointer;
+    }
+    
+    .btn2:hover {
+      background: #3e0c15;
+      text-decoration: none;
+    }
